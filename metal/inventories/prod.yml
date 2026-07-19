@@ -7,8 +7,8 @@ metal:
   children:
     masters:
       hosts:
-        metal0: {ansible_host: 192.168.1.11, mac: '84:47:09:45:c2:62', disk: nvme1n1, network_interface: eth0}
-        metal1: {ansible_host: 192.168.1.12, mac: '84:47:09:5c:59:31', disk: nvme1n1, network_interface: eth0}
-        metal2: {ansible_host: 192.168.1.13, mac: '84:47:09:5a:61:65', disk: nvme1n1, network_interface: eth0}
+        pxm-node-01: {ansible_host: 192.168.1.11, mac: '84:47:09:45:c2:62', disk: nvme1n1, network_interface: eth0}
+        pxm-node-02: {ansible_host: 192.168.1.12, mac: '84:47:09:5c:59:31', disk: nvme1n1, network_interface: eth0}
+        pxm-node-03: {ansible_host: 192.168.1.13, mac: '84:47:09:5a:61:65', disk: nvme1n1, network_interface: eth0}
     workers:
       hosts:
